@@ -1,0 +1,41 @@
+The processs of wrapping the primitive datatype into the corresponding non primitive datatype using the valueof() method is called as boxing. method declaration is by the  public static Integer valueof(int i) 
+                                                                                                                                                                            Integer.valueof(10);
+Example program is 
+public class boxing {
+public static void main (String [] args){
+int a= 10;
+double b= 25.5;
+char c= 's';
+boolean d= true;
+Integer obj1 = Integer.valueof(a);
+double obj2 = double.valueof(b);
+char obj3= char.valueof(c);
+boolean obj4= boolean.valueof(d);
+
+System.out.println("Boxing Example");
+System.out.println("Integer object: " +obj1);
+System.out.println("double object: " + obj2);
+System.out.println("char object:  "+obj3);
+System.out.println(boolean object: " + obj4);
+
+The process of converting non primivtive datatype into primitive datatype with the help of value method.
+public class unboxing {
+public static void main(String [] args){
+// wrapping class object 
+Integer obj1 = Integer.valueof(10);
+Integer obj2 = Integer.valueof(25.5);
+integer obj3 = Integer.valueof(true);
+
+// unboxing: converting wrapper object back to primitives 
+int a= obj1.intValue();
+double b = obj2.doublevalue();
+char c= obj3.charvalue();
+boolean d = obj4.booleanvalue();
+
+System.out.println("int value: " + a);
+System.out.println("double value: " + b);
+System.out.println("char value: " + c);
+System.out.println("boolean value: " + d);
+}
+}
+
