@@ -17,7 +17,8 @@ System.out.println("Integer object: " +obj1);
 System.out.println("double object: " + obj2);
 System.out.println("char object:  "+obj3);
 System.out.println(boolean object: " + obj4);
-
+}
+}
 The process of converting non primivtive datatype into primitive datatype with the help of value method.
 public class unboxing {
 public static void main(String [] args){
