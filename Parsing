@@ -1,0 +1,4 @@
+The process of converting string into primive datatype is called as parsing. we use parseint() to convert the string into primitive datatype. parse method is present in all wrapper class except vharacter. it is static 
+method. during conversion there is a possibiltiy we might get number format exception , if we pass the abnormal data. Example of parsing.
+String numstr= "123";
+int num = Integer.parseInt(numstr);
