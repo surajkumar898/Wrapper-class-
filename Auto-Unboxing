@@ -1,0 +1,5 @@
+The implict conversion of non primitive  datatype into primitive datatype without using value method is 
+called auto-unboxing. 
+int  a= 10;
+double result = a;
+Typecasting is the coversion of one data type into another data type is called the implict conversion
